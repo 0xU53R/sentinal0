@@ -126,6 +126,7 @@ Unauthorized monitoring or scanning may violate laws or policies.
 * Java API endpoint system
 * Basic rule engine implementation
 * Initial CLI output interface
+* C version coming soon for demo purposes
 
 ---
 
