@@ -1,0 +1,7 @@
+Sentinel is a hybrid security monitoring and anomaly detection system designed to observe, analyze, and respond to system or network activity in real time. It is built as a two-part architecture combining a high-performance Rust engine with a structured Java control layer.
+
+The Rust component acts as the real-time detection engine. It is responsible for fast event generation, network or system activity monitoring, and lightweight anomaly scoring. It focuses on performance-critical tasks such as detecting unusual connection patterns, rapid request bursts, and potential intrusion behavior. Rust outputs structured event data for further processing.
+
+The Java component serves as the orchestration and analysis layer. It receives events from the Rust engine, stores and organizes them, applies configurable detection rules, and manages logging and alerting. It can also be extended into a REST API or dashboard for visualization and monitoring.
+
+Together, these two components form a modular security system where Rust handles speed-sensitive detection and Java handles logic, persistence, and extensibility. Sentinel is designed as a foundation for building intrusion detection systems, security monitors, and behavioral anomaly analysis tools.
