@@ -27,9 +27,9 @@ It is built using a two-layer architecture:
 
 ```mermaid
 flowchart LR
-    A[Rust Sentinel Engine] -->|Event Stream (JSON)| B[Java Sentinel Core]
+    A[Rust Sentinel Engine] -->|Event Stream JSON| B[Java Sentinel Core]
     B --> C[Rule Engine]
-    B --> D[Database / Logs]
+    B --> D[Database Logs]
     C --> E[Alert System]
 ```
 
